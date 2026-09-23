@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+.preview-test
+*.local
+.DS_Store
