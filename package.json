@@ -1,0 +1,25 @@
+{
+  "name": "exa-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "EXA — Infinite Connectivity | ISP marketing website (static, bilingual AR/EN)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "framer-motion": "^11.11.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.8"
+  }
+}
